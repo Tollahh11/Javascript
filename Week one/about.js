@@ -7,6 +7,6 @@ function addition() {
 addition();
 const about = {
     name: "Exquitech",
-    about: "learning facility"
+    about : "learning facility"
 }
 document.getElementById("demo").innerHTML = about.name + " is " + " a " + " great " + about.about;
