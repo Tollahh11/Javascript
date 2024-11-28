@@ -11,5 +11,5 @@ class Rectangle{
     }
 }
 let rectangle = new Rectangle(7, 7)
-console.log(rectangle.calculateArea())
-console.log(rectangle.calculatePerimeter())
+console.log("Area is " + rectangle.calculateArea())
+console.log("Perimeter is " + rectangle.calculatePerimeter()) 

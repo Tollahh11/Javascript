@@ -1,0 +1,20 @@
+let loop = document.getElementsByClassName("dol");
+for(i = 0; i < loop.length; i++){
+    loop[i].style.border = "3px solid aqua"
+    loop[i].style.margin = "10px"
+    loop[i].style.color = "white"
+    loop[i].style.float = "left"
+    loop[i].style.width = "250px"
+    loop[i].style.height = "200px"
+    loop[i].style.borderRadius = "15px"
+    loop[i].style.padding = "15px"
+    loop[i].style.textAlign = "center"
+}
+let ggg = document.querySelector(".dol.ex");
+ggg.style.backgroundColor = "red"
+let ggf = document.querySelector(".dol.ef");
+ggf.style.backgroundColor = "gray"
+let ggh = document.querySelector(".dol.eg");
+ggh.style.backgroundColor = "blue"
+let ggi = document.querySelector(".dol.eh");
+ggi.style.backgroundColor = "rgb(65, 160, 192)"
