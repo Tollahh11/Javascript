@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <h1></h1>
+        <div id="hd">
+            <a class="hd-a" id="hide" href="">Sign Up</a>
+            <a class="hd-a" id="hide" href="">Login</a>
+        </div>
+    </header>
+    <div id="bod">
+        <img id="img" src="./images/headerimg.png" alt="" width="100%" height="300px">
+        <div id="butt">
+            <button id="button" class="butto" onclick="prev()">Previous</button>
+            <button id="prev" class="butto" onclick="next()">Next</button> 
+        </div>
+    </div>
+    <div>
+        <div id="mage1">
+            <h2 id="mmm"></h2>
+            <img src="./images/web.jpg" alt="" width="100%" height="300px">
+        </div>
+        <div id="mage2">
+            <img src="./images/gallery-image-13.jpg" class="ovv" alt="" width="46%" height="50%">
+            <img src="./images/gallery-image-10.jpg" class="ovv" alt="" width="46%" height="50%">
+            <img src="./images/gallery-image-11.jpg" class="ovv" alt="" width="46%" height="50%">
+            <img src="./images/gallery-image-12.jpg" class="ovv" alt="" width="46%" height="50%">
+        </div>
+        <div id="mage3">
+            
+        </div>
+    </div>
+    <form action="" id="form" method="post" name="pform" onsubmit="return validate()">
+        <h1>Signup</h1>
+        <label for="Your name"> Your name<span style="color: red;">*</span> </label><br>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="Your email"> Your email<span style="color: red;">*</span> </label><br>
+        <input type="mail" name="email" id="mail"><br><br>
+        <label for="Mobile Number"> Mobile number<span style="color: red;">*</span> </label><br>
+        <input type="number" name="number" id="number"><br><br>
+        <label for="Password">Password <span style="color: red;">*</span></label><br>
+        <input type="password" name="password" id="password"><br><br>
+        <button type="submit"  id="submit">Signup</button>
+    </form>
+<script src="assign.js">
+
+</script>
+</body>
+</html>
