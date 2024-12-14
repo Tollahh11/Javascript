@@ -1,5 +1,8 @@
 let head = document.getElementById("header");
 head.style.width = "100%";
+// let bbb = document.getElementById("bbbb");
+// bbb.style.margin = "auto"
+// bbb.style.maxWidth = "50%"
 const h1 = document.getElementsByTagName("h1")[0];
 h1.innerHTML = "Javascript webpage";
 h1.style.textShadow = "2px 2px";

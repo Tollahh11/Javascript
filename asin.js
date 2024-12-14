@@ -1,7 +1,11 @@
-document.getElementById("body").style.justifyItems = "center"
+let boy = document.getElementById("bodyy")
+boy.style.margin = "auto"
+boy.style.maxWidth = "50%"
+boy.style.marginTop = "100px"
 let formm = document.getElementById("formm")
 formm.style.backgroundColor = "aqua"
-formm.style.padding = "10%"
+formm.style.padding = "15%"
+formm.style.borderRadius = "90px"
 function valid(){
     let mail = document.forms['formm']['email'].value;
     let password = document.forms['formm']['password'].value;
